@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { Auth } from "../components/Auth";
 
 const Home = () => (
   <>
@@ -8,7 +9,7 @@ const Home = () => (
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="icon" href="/favicon.ico" />
     </Head>
-    <div />
+    <Auth />
   </>
 );
 
